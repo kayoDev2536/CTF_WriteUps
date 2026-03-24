@@ -21,13 +21,13 @@ This tells us the flag is not hidden another place.
 
 ### Step 1: Filter "flag" using **grep**:
 
-![first_look](../images/picoCTF_challange2a.png)
+![first_look](../images/challenge2/picoCTF_challenge2a.png)
 
 **Result**: 4 different part of flags repeating their self.
 
 ### Step 2: Print unique parts of flag: 
 
-![print_unique](../images/picoCTF_challange2b.png)
+![print_unique](../images/challenge2/picoCTF_challenge2b.png)
 
 **Discovery**:
 
@@ -37,7 +37,9 @@ Correct order:
    3. sk1lls_  
    4. cedfa5fb}
 
-> Because it looks like **"use your linux skills..".**  
+> Because it looks like **"use your linux skills..".**
+
+> The flag is: **picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}**  
 
 #### Tools:
  * cat - to read the log file.  
