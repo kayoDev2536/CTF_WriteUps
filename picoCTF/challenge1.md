@@ -22,7 +22,7 @@ This suggested that the flag was not in the visible content.
 
 ### Step 1: Check File Type
 
-![file_check](../images/picoCTF_challange1a.xcf)
+![file_check](../images/picoCTF_challange1a.png)
 
 **Result**: The file type was PDF.
 
@@ -30,7 +30,7 @@ This suggested that the flag was not in the visible content.
 
 Since PDFs often contain hidden metadata, I used ExifTool to extract the file properties:
 
-![metadata_search](..images/picoCTF_challange1b.xcf)
+![metadata_search](..images/picoCTF_challange1b.png)
 
 **Result**: In the metadata output, I found the **Base64** text hidden in the Author field:
 
@@ -38,7 +38,7 @@ Since PDFs often contain hidden metadata, I used ExifTool to extract the file pr
 
 I finally Decoded the text(base64):
 
-![decoding](../images/picoCTF_challange1c.xcf)
+![decoding](../images/picoCTF_challange1c.png)
 
 **Discovery**
 
