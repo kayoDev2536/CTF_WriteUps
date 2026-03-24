@@ -23,7 +23,7 @@ This tells us the flag is not hidden another place.
 
 ![first_look](../images/picoCTF_challange2a.png)
 
-**Result*: 4 different part of flags repeating their self.
+**Result**: 4 different part of flags repeating their self.
 
 ### Step 2: Print unique parts of flag: 
 
