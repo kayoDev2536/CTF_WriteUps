@@ -30,7 +30,7 @@ This suggested that the flag was not in the visible content.
 
 Since PDFs often contain hidden metadata, I used ExifTool to extract the file properties:
 
-![metadata_search](..images/picoCTF_challange1b.png)
+![metadata_search](../images/picoCTF_challange1b.png)
 
 **Result**: In the metadata output, I found the **Base64** text hidden in the Author field:
 
